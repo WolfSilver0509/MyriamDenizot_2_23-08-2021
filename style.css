@@ -1,9 +1,9 @@
-#Head-logo-nav{
+#head-logo-nav{
     display:flex;
     justify-content: space-between;
 }
 
-#Nav{
+#nav{
     display: flex;
     justify-content: space-between;
     list-style: none;  
@@ -36,7 +36,7 @@ color: #DEEBFF;
     
 }
 
-#Filters{
+#filters{
     display: flex;
   align-items: center;
   flex-direction: row;
