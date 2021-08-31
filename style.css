@@ -1,3 +1,73 @@
+/* Générale */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-link-blue{
+
+  color:#0065FC;
+}
+
+.color-link-background{
+  color: #F2F2F2;
+}
+
+.color-link-grey{
+  color: #414244;
+}
+
+.none-decoration{
+  text-decoration: none;
+}
+
+
+#head-logo-nav{
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-size{
+  width: 45%; /*45% par rapport à son éléments parents .nav-bar-link */
+}
+
+.link-size-2{ /*largeur de chaques liens et bordure trait au-dessus */
+width: 140 px ;
+height: 99px;
+}
+
+.logo{
+  border: 2px solid green;
+}
+
+.nav-bar-link{
+  border: 2px solid black;
+}
+
+
+/*Nagivation Bar */
+/*
 #head-logo-nav{
     display:flex;
     justify-content: space-between;
@@ -19,14 +89,16 @@ nav ul li
 a{
     text-decoration: none;
 }
-
+ 
 .blue-stars{
-    color:#0065FC;
-    
+  color:#0065FC;
+  
 }
 
+
 .grey-stars{
-color: #DEEBFF;
+
+  color: #DEEBFF; 
 
 }
 
@@ -50,7 +122,7 @@ color: #DEEBFF;
   }
 
   /*Filtres css*/
-
+/*
   .btn:hover {
     color: #0065fc;
     background-color: #f2f2f2;
@@ -76,7 +148,7 @@ color: #DEEBFF;
   }
 
   /* Bouton */
-
+/*
   .btn i {
     background-color: #deebff;
     position: absolute;
@@ -87,3 +159,11 @@ color: #DEEBFF;
     padding-top: 15px;
     border-radius: 25px;
   }
+
+  .popular-card{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+  }
+  */
