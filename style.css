@@ -17,6 +17,26 @@
   align-items: center;
 }
 
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.flex-column-around{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.flex-column-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .color-link-blue{
 
   color:#0065FC;
@@ -71,7 +91,7 @@
 }
 
 .link-size-2{ /*largeur de chaques liens et hauteur */
-width: 150 px ;
+
 height: 99px;
 }
 
@@ -80,6 +100,10 @@ height: 99px;
 }
 
 .nav-bar-link{
+  
+  padding: 35px;
+}
+.nav-bar-link:hover{
   border-top: 2px solid blue;
   padding: 35px;
 }
@@ -131,8 +155,8 @@ height: 99px;
 /* Filtres */
 
 .margin-filter{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 #filters{
@@ -149,22 +173,24 @@ height: 99px;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px ;
+  background-color: #deebff;
 }
 
 .icon-filter-text:hover > .filter-text{
   color: #0065FC;
+  background-color: #deebff;
 }
 
 .icon-filter-text:hover > .icon-filter{
-color: white;
+color:white;
 background-color: #0065FC;
 }
 
 .filter-text{
 height: 50px;
-padding-left:20px ;
+padding-left:10px ;
 padding-right: 20px;
-border-radius: 0 25px 25px 0;
+border-radius: 0px 25px 25px 0;
 }
 
 .icon-filter{
@@ -173,6 +199,7 @@ border-radius: 0 25px 25px 0;
   height: 52px;
   color: #0065FC;
   background-color: #deebff;
+  
 }
 
 /*Info en-dessou de la recherche */
@@ -191,8 +218,101 @@ margin-right: 5px;
 
 }
 
+/*Hebergement Marseille*/
 
+.hebergement-size{
+flex: 2;
+height: 650px;
+margin-right: 20px;
+border-radius: 10px;
+}
 
+.popular-size{
+flex: 1;
+height: 650px;
+margin-left: 20px;
+border-radius: 10px;
+}
+
+.hebergement-contener{
+  padding: 20px;
+  padding-right: 20px;
+
+}
+
+.card-hebergement{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius:20px ;
+}
+
+.column-1{
+  margin-bottom: 10px;
+}
+
+.column-2{
+  margin-bottom: 10px;
+}
+
+.hebergement-box-detail{
+  width: 90%;
+
+}
+.bedroom-click-1{
+  background-image: url(./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bedroom-click-2{
+  background-image: url(./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bedroom-click-3{
+  background-image: url(./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bedroom-click-4{
+  background-image: url(./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bedroom-click-5{
+  background-image: url(./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bedroom-click-6{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
 
 
 /*Nagivation Bar */
