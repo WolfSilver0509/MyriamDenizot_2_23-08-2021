@@ -52,9 +52,13 @@
   width: 45%; /*45% par rapport à son éléments parents .nav-bar-link */
 }
 
-.link-size-2{ /*largeur de chaques liens et bordure trait au-dessus */
+.link-size-2{ /*largeur de chaques liens et hauteur */
 width: 140 px ;
 height: 99px;
+}
+
+.bordur-nav-bar{
+  border: 1px solid blue;
 }
 
 .logo{
@@ -62,7 +66,7 @@ height: 99px;
 }
 
 .nav-bar-link{
-  border: 2px solid black;
+  border-top: 2px solid blue;
 }
 
 
