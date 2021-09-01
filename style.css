@@ -32,20 +32,26 @@
 
 .back-link-blue{
 
-  color:#0065FC;
+  background-color:#0065FC;
 }
 
 .back-link-grey{
-  color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 .back-link-blue-light{
-  color: #deebff;
+  background-color: #deebff;
 }
 
 .none-decoration{
   text-decoration: none;
 }
+
+.border-none{
+  border: none;
+}
+
+/* Bloc Header avec logo et nav */
 
 #head-logo-nav{
   /*border: 2px solid red;*/
@@ -73,12 +79,120 @@ height: 99px;
   border: 1px solid blue;
 }
 
-
-
 .nav-bar-link{
   border-top: 2px solid blue;
   padding: 35px;
 }
+/* Bloc recherche Hébergement */
+
+.bold-text{
+  font-weight: bold ;
+}
+
+/*Section trouver son logement avec barre de recherche */
+
+.map-borderer{
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #F2F2F2;
+}
+
+.icon-map-size{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+  
+
+}
+.research{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+#map-locality-research{
+  display: flex;
+}
+
+.padding-search{
+  padding-left: 20px;
+}
+
+.button-search{
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius:0 10px 10px 0 ;
+
+}
+/* Filtres */
+
+.margin-filter{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#filters{
+  display: flex;
+  align-items: center;
+}
+
+.margin-title-filter{ /*espacé le titre des filtres */
+  margin-right: 20px;
+}
+
+.icon-filter-text{
+  border: 2px solid #F2F2F2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px ;
+}
+
+.icon-filter-text:hover > .filter-text{
+  color: #0065FC;
+}
+
+.icon-filter-text:hover > .icon-filter{
+color: white;
+background-color: #0065FC;
+}
+
+.filter-text{
+height: 50px;
+padding-left:20px ;
+padding-right: 20px;
+border-radius: 0 25px 25px 0;
+}
+
+.icon-filter{
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065FC;
+  background-color: #deebff;
+}
+
+/*Info en-dessou de la recherche */
+
+.info{
+  display: flex;
+  align-items: center;
+}
+
+.icon-parent{
+  width: 20px;
+  height: 20px;
+border: 2px solid #F2F2F2;
+border-radius: 25px;
+margin-right: 5px;
+
+}
+
+
+
 
 
 /*Nagivation Bar */

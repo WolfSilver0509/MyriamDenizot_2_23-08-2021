@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b92704fbb5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -37,45 +38,53 @@
     <section id="research-accommodation">
         <div id="title-1-location-summer-dream">
 
-            <h2> Trouver votre hébergement pour des vacances de rêve </h2>
+            <h2 class="bold-textd"> Trouver votre hébergement pour des vacances de rêve </h2>
             <p> En plein centre ville ou en pleine nature </p>
         </div>
-        <div id="map-locality">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text" id="name" name="name" placeholder="Marseille, France" maxlength="30" />
+        <div id="map-locality-research">
+            <div class="icon-map-size back-link-grey flex-center">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+                <input class="research flex-center border-none padding-search" type="text" id="name" name="name"
+                    value="Marseille, France" maxlength="30" />
+            </div>
+            <div class="back-link-blue flex-center button-search">
+                Rechercher
+            </div>
         </div>
-        <button> Rechercher </button>
 
 
-        <div id="filters">
+        <div id="filters" class="margin-filter">
 
-            <h3>Filtres</h3>
+            <div>
+                <h3>Filtres</h3>
+            </div>
 
-            <nav>
-
-                <div class="filters-button">
-
-                    <button class="btn"> <i class="fas fa-money-bill-wave"></i> Economique </button>
-
-                </div>
-                <div class="filters-button">
-
-                    <button class="btn"> <i class="fas fa-solid fa-child"></i> Famillial</button>
-                </div>
-                <div class="filters-button">
-
-                    <button class="btn"> <i class="fas fa-solid fa-heart"></i> Romantique</button>
-                </div>
-                <div class="filters-button">
-
-                    <button class="btn"> <i class="fas fa-solid fa-dog"> </i> Animaux autorisés </button>
-                </div>
-
-            </nav>
+            <div class="icon-filter-text flex-between"> <i
+                    class="fas fa-money-bill-wave fa-lg icon-filter flex-center"></i>
+                <div class="filter-text flex-center">Economique</div>
+            </div>
+            <div class="icon-filter-text flex-between"> <i
+                    class="fas fa-solid fa-child fa-lg icon-filter flex-center"></i>
+                <div class="filter-text flex-center">Famillial</div>
+            </div>
+            <div class="icon-filter-text flex-between"> <i
+                    class="fas fa-solid fa-heart  fa-lg icon-filter flex-center"></i>
+                <div class="filter-text flex-center">Romantique</div>
+            </div>
+            <div class="icon-filter-text flex-between"> <i class="fas fa-solid fa-dog fa-lg icon-filter flex-center">
+                </i>
+                <div class="filter-text flex-center"> Animaux autorisés </div>
+            </div>
 
         </div>
-        <div id="info">
-            <i class="fas fa-solid fa-info"></i>
+
+        <div class="info">
+            <div class="icon-parent flex-center">
+            <i class="fas fa-solid fa-info fa-xs color-link-blue"></i>
+        </div>
+        
             <p> Plus 500 logements disponibles dans cette ville</p>
         </div>
     </section>
