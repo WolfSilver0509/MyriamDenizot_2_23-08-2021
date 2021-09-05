@@ -314,7 +314,55 @@ border-radius: 10px;
   border-radius: 15px 15px 0 0;
 }
 
+/* Populaire */
+.popular-part{
+  padding-left:20px;
+  padding-right:20px;
+}
 
+.popular-img-1{
+  background-image: url(./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px  0 0 15px;
+}
+
+.popular-img-2{
+  background-image: url(./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px  0 0 15px;
+}
+
+.popular-img-3{
+  background-image: url(./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px  0 0 15px;
+}
+
+.popular-size-border{
+  background-color: white;
+  height: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+
+}
+
+.popular-card-1-and-2{
+  margin-bottom: 20px;
+}
+
+.popular-card-detail{
+  width: 60%;
+  padding-left: 5%;
+}
 /*Nagivation Bar */
 /*
 #head-logo-nav{
