@@ -77,6 +77,7 @@
 
 body{
   margin:50px;
+  font-family: 'Raleway', sans-serif;
 }
 /* Bloc Header avec logo et nav */
 
@@ -100,11 +101,7 @@ body{
 
 .link-size-2{ /*largeur de chaques liens et hauteur */
 
-height: 99px;
-}
-
-.bordur-nav-bar{
-  border: 1px solid blue;
+height: 50px;
 }
 
 .nav-bar-link{
@@ -113,7 +110,7 @@ height: 99px;
   color: black;
 }
 .nav-bar-link:hover{
-  border-top: 2px solid blue;
+  border-top: 2px solid #0065FC;
   padding: 35px;
   color: #0065FC;
   

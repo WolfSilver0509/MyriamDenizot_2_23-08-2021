@@ -8,6 +8,9 @@
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/b92704fbb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 
@@ -49,7 +52,7 @@
             </div>
             <div>
                 <input class="research flex-center border-none padding-search" type="text" id="name" name="name"
-                    placeholder="Marseille, France" maxlength="30" />
+                    placeholder="Marseille, France" maxlength="30" onFocus="if(this.placeholder=='Marseille, France')this.placeholder=''" />
             </div>
             <div class="back-link-blue flex-center button-search">
                 Rechercher
