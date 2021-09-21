@@ -21,6 +21,10 @@
     .tablette-title-size-pop{
         margin-top: 0;
     }
+
+    .size-title-h2{
+        padding-top: 40px;
+    }
     
 }
 @media screen and (max-width:980px) {
@@ -38,6 +42,8 @@
      flex-direction: column-reverse;   
      width: 100%;
     }
+
+    
     .popular-part{
       flex: none;  
       width: 90%;
@@ -62,7 +68,9 @@
     }   
     
   
-
+    .hebergement-size{
+        background-color: white;
+    }
 .hebergement-contener{
     height: auto;
 
@@ -153,5 +161,30 @@ border-bottom:5px solid #f2f2f2
         flex-direction: row;
         flex-wrap: wrap;
     }
+.map-borderer{
+    width: auto;
+    border: none;
+}
+
+.research{
+    width: 200px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.button-search{
+    width: 50px;
+    border-radius: 15px;
+}
+
+.desktop-none{
+    display: block;
+}
+
+.mobile-none{
+    display: none;
+}
+
+     
     
 }

@@ -132,10 +132,15 @@ margin-left: 50%;
 
 /*Section trouver son logement avec barre de recherche */
 
+.desktop-none{
+  display: none;
+}
+
 .map-borderer{
   width: 400px;
   border-radius: 10px;
   border: 0.5px solid #F2F2F2;
+  
 }
 
 .icon-map-size{
@@ -190,7 +195,8 @@ margin-left: 50%;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px ;
-  background-color: #deebff;
+ /* background-color: #deebff;*/
+  
 }
 
 .icon-filter-text:hover > .filter-text{
@@ -208,10 +214,8 @@ height: 50px;
 padding-left:10px ;
 padding-right: 20px;
 border-radius: 0px 25px 25px 0;
-border: 1px solid #deebff;
 background-color: white;
 }
-
 .icon-filter{
   border-radius: 25px;
   width: 52px;
@@ -263,6 +267,8 @@ border-radius: 10px;
   background-color: white;
   padding: 1%;
   border-radius:20px ;
+  /*Rajout d'ombre pour voir en version tab et mobile*/
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
 
 .column-1{
