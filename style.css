@@ -195,8 +195,11 @@ margin-left: 50%;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px ;
- /* background-color: #deebff;*/
+ /*background-color: #deebff;*/
   
+}
+.icon-filter-text:hover{
+  background-color: #deebff;
 }
 
 .icon-filter-text:hover > .filter-text{
