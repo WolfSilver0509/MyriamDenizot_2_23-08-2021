@@ -38,6 +38,12 @@
  justify-content: space-between;
 }
 
+h3, p{
+  color: black;
+}
+a:visited{
+  color:#0065FC ;
+}
 .color-link-blue{
 
   color:#0065FC;
@@ -78,7 +84,8 @@
 
 body{
   font-family: 'Raleway', sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1920px;
     padding: 0;
     box-sizing: border-box
 }

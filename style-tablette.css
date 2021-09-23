@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:800px) {
     
     .link-size-device{
         order:1;  
@@ -133,8 +133,18 @@ margin-left: 0;
 
 }
 
-@media screen and (max-width:600px) {
+@media only screen and (min-width: 280px) and (max-width:800px) {
 
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 85%;
+        width: 100%;
+    }
+
+    
     .link-size-device{
         order:1;  
         width: 100%;  
