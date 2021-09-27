@@ -304,13 +304,13 @@ border-radius: 10px;
   width: 100%;
   height: 120px;
   border-radius: 15px 15px 0 0;
+  
 }
 
 .img-size-respon{
   width: 100%;
   height: 100%;
-  max-width: auto;
-  max-height: auto;
+  border-radius: 15px 15px 0 0;
 }
 
 
