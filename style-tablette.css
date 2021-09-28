@@ -8,9 +8,17 @@
     }
 
 @media screen and (max-width:1200px){
+    .device-filter-wrap{
+        align-items: flex-start;
+    }
+   
     .link-size-device{
         margin-left: 35%;
     }
+
+    h3, p{
+        font-size: 80%;
+      }
     
 .hebergement-box-detail{
     min-height: 150px;
@@ -38,8 +46,7 @@
 @media screen and (max-width:980px) {
     
     .device-filter-wrap{
-        flex-direction: column;
-        align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     .icon-filter-text{
@@ -214,6 +221,11 @@ margin-left: 0;
 
     .mobile-none{
     display: none;
+    }
+
+    .flex-around-filter{
+        display: flex;
+        justify-content: start;
     }
 
 }   
