@@ -275,6 +275,7 @@ border-radius: 10px;
 }
 
 .card-hebergement{
+  
   width: 30%;
   height: auto;
   background-color: white;
@@ -282,6 +283,8 @@ border-radius: 10px;
   border-radius:20px ;
   /*Rajout d'ombre pour voir en version tab et mobile*/
   box-shadow: 5px 5px 5px 1px #F2F2F2;
+
+
 }
 
 .column-1{
@@ -298,13 +301,13 @@ border-radius: 10px;
 }
 
 .bedroom-click{ 
+  
   object-fit: cover;
   
   object-position: center;
   width: 100%;
   height: 120px;
-  border-radius: 15px 15px 0 0;
-  
+  border-radius: 15px 15px 0 0; 
 }
 
 .img-size-respon{
