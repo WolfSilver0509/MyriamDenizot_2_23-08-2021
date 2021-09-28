@@ -271,7 +271,7 @@ border-radius: 10px;
 }
 
 .hebergement-contener{
-  padding: 50px;
+  padding: 20px;
 }
 
 .card-hebergement{
@@ -300,7 +300,7 @@ border-radius: 10px;
 
 }
 
-.bedroom-click-test{ 
+.bedroom-click{ 
   
   object-fit: cover;
   
@@ -310,12 +310,9 @@ border-radius: 10px;
   border-radius: 15px 15px 0 0; 
 }
 
-.bedroom-click{
-width: 100%;
-border-radius: 15px 15px 0 0;
-}
+
 .img-size-respon{
-  width: 100%;
+ /* width: 100%;*/
  
 }
 
