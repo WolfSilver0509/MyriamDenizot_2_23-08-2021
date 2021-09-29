@@ -172,6 +172,11 @@ margin-left: 0;
         margin: 0;
     }
 
+    h3, p{
+        font-size: 100%;
+      }
+
+
 
     .link-size-device{
         order:1;  
@@ -226,6 +231,11 @@ margin-left: 0;
     .flex-around-filter{
         display: flex;
         justify-content: start;
+    }
+
+    .hebergement-box-detail {
+        
+        padding-left: 10px;
     }
 
 }   

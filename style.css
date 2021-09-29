@@ -46,9 +46,10 @@
 h3, p{
   color: black;
   font-size: 100%;
+
 }
-a:visited{
-  color:#0065FC ;
+h3{
+  font-weight: bold;
 }
 .color-link-blue{
 
