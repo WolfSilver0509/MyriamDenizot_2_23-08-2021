@@ -1,0 +1,451 @@
+
+/* Générale */
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-around-filter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.flex-column-around{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.flex-column-between{
+  display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+h3, p{
+  color: black;
+  font-size: 100%;
+
+}
+h3{
+  font-weight: bold;
+}
+.color-link-blue{
+
+  color:#0065FC;
+}
+
+.color-link-grey{
+  color: #F2F2F2;
+}
+
+.color-link-blue-light{
+  color: #deebff;
+}
+
+.color-link-black{
+  color:black;
+}
+
+.back-link-blue{
+
+  background-color:#0065FC;
+}
+
+.back-link-grey{
+  background-color: #F2F2F2;
+}
+
+.back-link-blue-light{
+  background-color: #deebff;
+}
+
+.none-decoration{
+  text-decoration: none;
+}
+
+.border-none{
+  border: none;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+main{
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+}
+/* Bloc Header avec logo et nav */
+.head-logo-nav{
+  height: auto;
+}
+.link-size{
+  width: 100%;
+}
+header{
+  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+.link-size-2{ /*largeur de chaques liens et hauteur */
+
+height: 50px;
+}
+
+.link-size-device{
+margin-left: 70%;
+}
+
+.nav-bar-link{
+  
+  padding: 35px;
+  color: black;
+}
+.nav-bar-link:hover{
+  border-top: 2px solid #0065FC;
+  color: #0065FC;
+  
+}
+/* Bloc recherche Hébergement */
+
+.bold-text{
+  font-weight: bold ;
+}
+
+::placeholder{
+  color: black;
+}
+
+/*Section trouver son logement avec barre de recherche */
+
+.desktop-none{
+  display: none;
+}
+
+.map-borderer{
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #F2F2F2;
+  
+}
+
+.icon-map-size{
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+  
+
+}
+.research{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+#map-locality-research{
+  display: flex;
+}
+
+.padding-search{
+  padding-left: 20px;
+}
+
+.button-search{
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius:0 10px 10px 0 ;
+
+}
+/* Filtres */
+
+.margin-filter{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+}
+
+.margin-title-filter{ /*espacé le titre des filtres */
+  margin-right: 50px;
+}
+
+.icon-filter-text{
+  border: 2px solid #F2F2F2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px ;
+ /*background-color: #deebff;*/
+  
+}
+.icon-filter-text:hover{
+  background-color: #deebff;
+}
+
+.icon-filter-text:hover > .filter-text{
+  color: #0065FC;
+  background-color: #deebff;
+}
+
+.icon-filter-text:hover > .icon-filter{
+color:white;
+background-color: #0065FC;
+}
+
+.filter-text{
+height: 50px;
+padding-left:10px ;
+padding-right: 20px;
+border-radius: 0px 25px 25px 0;
+background-color: white;
+}
+.icon-filter{
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065FC;
+  background-color: #deebff;
+  
+}
+
+/*Info en-dessou de la recherche */
+
+.info{
+  display: flex;
+  align-items: center;
+}
+
+.icon-parent{
+  width: 20px;
+  height: 20px;
+border: 2px solid #F2F2F2;
+border-radius: 25px;
+margin-right: 5px;
+
+}
+
+/*Hebergement Marseille*/
+
+.hebergement-size{
+flex: 2;
+height: 650px;
+margin-right: 20px;
+border-radius: 10px;
+}
+
+.popular-size{
+flex: 1;
+height: 650px;
+margin-left: 20px;
+border-radius: 10px;
+}
+
+.hebergement-contener{
+  padding: 20px;
+}
+
+.card-hebergement{
+  
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius:20px ;
+  /*Rajout d'ombre pour voir en version tab et mobile*/
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+
+
+}
+
+.column-1{
+  margin-bottom: 10px;
+}
+
+.column-2{
+  margin-bottom: 10px;
+}
+
+.hebergement-box-detail{
+  width: 100%;
+
+}
+
+.bedroom-click{ 
+  
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0; 
+}
+
+/* Populaire */
+.popular-part{
+  padding: 20px;
+}
+
+.popular-img{
+ object-fit: cover;
+ object-position: center;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px  0 0 15px;
+}
+.popular-size-border{
+  background-color: white;
+  height: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+
+}
+
+.popular-card-1-and-2{
+  margin-bottom: 20px;
+}
+
+.popular-card-detail{
+  width: 60%;
+  padding-left: 5%;
+}
+
+/*Activité Marseille */
+
+#activity-marseille{
+ margin-top: 50px;
+ margin-bottom: 50px; 
+}
+
+.card-activity{
+  width:100%;
+  height: 600px;
+}
+
+.card-activity-23-56{
+  width:23%;
+  height: 600px;
+}
+
+/*Partie activité réglage box */
+
+.card-part-activity{
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.card-part-activity-23-56{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+/*fin partie activité réglages */
+
+.title-activity{
+height: 70px;
+}
+
+.title-flex-activity{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 5%; /* 5 de marge */
+  width: 95%; 
+}
+
+.img-activity-card-14{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+ height: 530px;
+  border-radius: 15px  15px 0 0;
+}
+.img-activity-card-2{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+ height: 250px;
+  border-radius: 15px  15px 0 0;
+}
+
+.img-activity-card-3{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 150px;
+  border-radius: 15px  15px 0 0;
+}
+.img-activity-card-56{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 210px;
+  border-radius: 15px  15px 0 0;
+}
+
+
+
+/*footer */
+
+.footer-part{
+  height: 250px;
+  margin-top: 60px;
+
+}
+
+.footer-size-part{
+  height: 150px; 
+}
+
+.footer-marge-part-1{
+  margin-left: 3%;
+}
+.footer-marge-part-3{
+  margin-right: 30%;
+}
+
+.footer-a-color{
+  color: black;
+}
+
+.footer-div-a{
+  height: 30px;
+}
+  
